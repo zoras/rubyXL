@@ -67,7 +67,7 @@ module RubyXL
   end
 
   class BinaryImageFile < GenericStorageObject
-    CONTENT_TYPE = 'image/jpeg'
+    CONTENT_TYPE = 'image/png'
     REL_TYPE     = 'http://schemas.openxmlformats.org/officeDocument/2006/relationships/image'
   end
 
