@@ -180,7 +180,9 @@ module RubyXL
                    'http://schemas.openxmlformats.org/officeDocument/2006/relationships' => 'r',
                    'http://schemas.openxmlformats.org/markup-compatibility/2006' => 'mc',
                    'http://schemas.microsoft.com/office/spreadsheetml/2009/9/ac' => 'x14ac',
-                   'urn:schemas-microsoft-com:mac:vml' => 'mv')
+                   'urn:schemas-microsoft-com:mac:vml' => 'mv',
+                   'mc:Ignorable' => 'x14ac xr xr2 xr3',
+                   'xr:uid' => '{00000000-0001-0000-0000-000000000000}')
 
     def initialize(*args)
       super
