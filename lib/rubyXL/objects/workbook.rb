@@ -51,7 +51,7 @@ module RubyXL
     define_attribute(:allowRefreshQuery,          :bool,   :default => false)
     define_attribute(:publishItems,               :bool,   :default => false)
     define_attribute(:checkCompatibility,         :bool,   :default => false)
-    define_attribute(:autoCompressPictures,       :bool,   :default => true)
+    define_attribute(:autoCompressPictures,       :uint,   :default => 0)
     define_attribute(:refreshAllConnections,      :bool,   :default => false)
     define_attribute(:defaultThemeVersion,        :int)
     define_attribute(:codeName,                   :string)

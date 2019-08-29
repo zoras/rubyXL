@@ -20,7 +20,7 @@ module RubyXL
   # http://www.datypic.com/sc/ooxml/e-ssml_v-1.html
   class CellValue < OOXMLObject
     define_attribute(:_, :string, :accessor => :value)
-    define_attribute(:'xml:space', %w{ preserve })
+    # define_attribute(:'xml:space', %w{ preserve })
     define_element_name 'v'
 
     def before_write_xml

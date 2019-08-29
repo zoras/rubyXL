@@ -8,7 +8,7 @@ module RubyXL
   # http://www.datypic.com/sc/ooxml/e-ssml_t-1.html
   class Text < OOXMLObject
     define_attribute(:_,           :string, :accessor => :value)
-    define_attribute(:'xml:space', %w{ preserve })
+    # define_attribute(:'xml:space', %w{ preserve })
     define_element_name 't'
 
     # http://www.w3.org/TR/REC-xml/#NT-Char:

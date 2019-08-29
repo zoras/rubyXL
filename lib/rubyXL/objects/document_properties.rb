@@ -45,7 +45,7 @@ module RubyXL
     def add_parts_count(name, count)
       return unless count > 0
       heading_pairs.vt_vector.vt_variant << RubyXL::Variant.new(:vt_lpstr => RubyXL::StringNode.new(:value => name))
-      heading_pairs.vt_vector.vt_variant << RubyXL::Variant.new(:vt_i4 => RubyXL::IntegerNode.new(:value => count))
+      # heading_pairs.vt_vector.vt_variant << RubyXL::Variant.new(:vt_i4 => RubyXL::IntegerNode.new(:value => count))
     end
     private :add_parts_count
 
